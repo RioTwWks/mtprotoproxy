@@ -1,0 +1,11 @@
+# Core dependencies for mtprotoproxy
+# cryptography is preferred for better performance
+cryptography>=41.0.0
+
+# Optional but recommended for better performance
+uvloop>=0.19.0; sys_platform != "win32"
+
+# pyaes is used as fallback if cryptography is not available
+# It's a pure Python implementation, slower but works everywhere
+pyaes>=1.3.0
+
