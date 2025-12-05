@@ -21,7 +21,7 @@ Fast and simple to setup MTProto proxy written in Python.
 
 The proxy requires the following Python packages:
 - `cryptography` (recommended for better performance)
-- `pyaes` (fallback if cryptography is not available)
+- `pyaes` (required fallback if cryptography is not available)
 - `uvloop` (optional, for better performance on Linux/macOS)
 
 All dependencies are listed in `requirements.txt` and will be installed automatically when using pip.

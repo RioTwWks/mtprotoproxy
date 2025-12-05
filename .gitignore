@@ -44,6 +44,6 @@ config.py
 .DS_Store
 Thumbs.db
 
-# Note: pyaes/ directory is kept in repository as a fallback
-# but should ideally be installed via pip for better performance
+# Dependencies should be installed via pip
+# pyaes/ is no longer bundled - install via: pip install -r requirements.txt
 
